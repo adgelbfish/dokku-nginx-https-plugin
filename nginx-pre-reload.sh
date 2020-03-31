@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+# Runs a check against all nginx conf files
+# to ensure they are valid
+
+sed 's=http://hydra=https://hydra=g' /home/dokku/hydra/nginx.conf > /home/dokku/hydra/nginx.conf
