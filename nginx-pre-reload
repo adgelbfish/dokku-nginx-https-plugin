@@ -3,5 +3,5 @@
 # to ensure they are valid
 
 echo "setting keycloak https"
-sed -i 's=http://keycloak=https://keycloak=g' /home/dokku/keycloak/nginx.conf
+sed -i 's=http://keycloak-8443=https://keycloak-8443=g' /home/dokku/keycloak/nginx.conf
 
