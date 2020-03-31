@@ -1,4 +1,4 @@
-[pluginnginx]
+[plugin]
 description = "nginx https forward plugin"
 version = "0.1.0"
-[pluginnginx.config]
+[plugin.config]
